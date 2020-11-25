@@ -51,7 +51,7 @@ def printAngle(A, B):
 
 
 vid = cv2.VideoCapture(0) 
-add = r"D:\Ananya\3RDi_LABs\Feature_Extraction_and_Matching\Feature_Detection\image7.jpg"
+add = r"" #address of the training image 
 img = cv2.imread(add)
 def image_detect_and_compute(detector, img_name):
     """Detect and compute interest points and their descriptors."""
